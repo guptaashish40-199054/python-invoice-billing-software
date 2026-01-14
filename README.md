@@ -1,47 +1,70 @@
-# python-invoice-billing-software
-A professional GUI-based Invoice & Billing Application built using Python.
-This project is designed for small businesses to generate GST-compliant invoices in PDF format.
+Invoice Generator Application (Python)
+
+A professional GUI-based Invoice & Billing Application built using Python to generate GST-compliant invoices in PDF format for small businesses.
 
 🚀 Features
 
 GUI-based Invoice Generator (Tkinter)
 
-Vendor (Company) Details Section
+Vendor (Company) Details
 
-Customer Details
+Customer Details (Company, Name, Address, Phone)
 
-Company Name (optional)
-
-Customer Name
-
-Address
-
-Phone Number
-
-Multiple Items Billing (Add Item Button)
+Multiple Item Billing
 
 Automatic Invoice Number Generation
 
-GST Calculation (CGST + SGST)
+CGST + SGST Calculation
 
 Professional PDF Invoice Generation
 
 Customer Database (Excel)
 
-Invoice History Stored in Excel
+Invoice History (Excel)
 
 Company Logo Support
 
-Converted into Windows Executable (.exe)
+Windows Executable (.exe)
 
 🛠️ Technologies Used
 
 Python
 
-Tkinter (GUI)
+Tkinter
 
-ReportLab (PDF Generation)
+ReportLab
 
-OpenPyXL (Excel Database)
+OpenPyXL
 
-PyInstaller (EXE Packaging)
+PyInstaller
+
+📂 Project Structure
+invoice_app/
+│
+├── invoice_gui.py
+├── company_logo.png
+├── customers.xlsx
+├── invoice_history.xlsx
+├── invoices/
+
+▶️ How to Run the Project
+
+Install required libraries:
+
+pip install reportlab openpyxl
+
+
+Run the application:
+
+python invoice_gui.py
+
+🪟 Create Windows EXE
+pyinstaller --onefile --windowed invoice_gui.py
+
+📸 Screenshots
+
+(Add screenshots of GUI and generated PDF here)
+
+👨‍💻 Author
+
+Ashish Gupta
